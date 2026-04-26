@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container h2{
+    font-size: 1.2rem;
+    font-family: "Inter", sans-serif;
+}
+
+.iconContainer{
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.20);
+    border-radius: 50%;
+    padding: 1rem;
+    border: 1px solid #000;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.icon{
+    color: #000;
+    transition: .3s;
+}
+
+.iconContainer:hover{
+    background-color: #4813AA;
+}
+
+.iconContainer:hover .icon{
+    color: #fff;
+}

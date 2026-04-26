@@ -1,0 +1,89 @@
+.openBtn{
+    border: 0;
+    background-color: #4813AA;
+    margin-top: 0.4375rem;
+    cursor: pointer;
+}
+
+.icon{
+    color: #fff;
+    transition: .3s;
+}
+
+.openBtn:hover .icon{
+    color: #ccc;
+}
+
+.title{
+    font-size: 28px;
+    color: #4813AA;
+    font-family: "Oswald", sans-serif;
+    font-weight: 100;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  gap: 2rem;
+}
+
+.links a {
+  font-size: 24px;
+  color: #4813AA;
+  font-family: "Oswald", sans-serif;
+  text-decoration: none;
+  position: relative;
+}
+
+.links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 50%;
+  height: 2px;
+  background-color: #4813AA;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.links a:hover::after {
+  transform: scaleX(1);
+}
+
+
+.btn {
+  font-size: 24px;
+  color: #4813AA;
+  font-family: "Oswald", sans-serif;
+  text-decoration: none;
+  position: relative;
+
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+
+  display: inline-block;
+}
+
+.btn::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 50%;
+  height: 2px;
+  background-color: #4813AA;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.btn:hover::after {
+  transform: scaleX(1);
+}
+

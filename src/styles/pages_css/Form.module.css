@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    min-height: 60vh;
+}
+
+.form {
+  margin-top: 1.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.875rem;
+  
+}
+
+.form h2{
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+}
+
+.links{
+    display: flex;
+    gap: 12px;
+}
+
+.links a{
+    text-decoration: underline;
+    color: #4813AA;
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+}
